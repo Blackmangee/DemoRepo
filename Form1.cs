@@ -12,7 +12,7 @@ namespace Weather_App
         {
             InitializeComponent();
         }
-        string APIKey = "f24714db7a0152bcf7513b88b9201d37";
+        string APIKey = Environment.GetEnvironmentVariable("Open_WeatherAPIKey");
         private void label8_Click(object sender, EventArgs e)
         {
 
